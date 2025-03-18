@@ -8,3 +8,9 @@ public class Person
     public required string City { get; set; }
     public bool IsStudent { get; set; }
 }
+
+public class CityCountry
+{
+    public required string City { get; set; }
+    public required string Country { get; set; }
+}
